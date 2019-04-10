@@ -18,7 +18,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 {
 	int X1, X2, X3, Y1, Y2, Y3; //координаты заданных пользователем точек
 	float Ax, Ay, Bx, By, Px, Py; //координаты вспомогательных точек
-	int step = 1000;
+	int step = 2000;
 	int firstLenght = 1, secondLenght = step;
 	float lyambda;
 
